@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p*@e@@s4!9z0$@9+(u&wg$y&)*8vn7(!51n-i&=+f$8f2zo0+2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -78,10 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'polls',
-        'USER': 'root',
+        'USER': 'andrewl426',
         'PASSWORD': '#Loganstrong426',
-        'HOST': '127.0.0.1',
-        'PORT': '3306'
+        'HOST': 'andrewl426.mysql.pythonanywhere-services.com',
     }
 }
 
