@@ -26,7 +26,7 @@ SECRET_KEY = 'p*@e@@s4!9z0$@9+(u&wg$y&)*8vn7(!51n-i&=+f$8f2zo0+2'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-'andrewl426.pythonanywhere.com'
+'http://www.andrewl426.pythonanywhere.com'
 ]
 
 
